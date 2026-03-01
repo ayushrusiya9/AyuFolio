@@ -13,18 +13,6 @@
 
 ---
 
-## 📸 Preview
-
-<div align="center">
-
-| Home                                                                     | Projects                                                             |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| ![Home Section](https://img.shields.io/badge/Hero-Typing_Animation-cyan) | ![Projects](https://img.shields.io/badge/6_Projects-Live_Demos-blue) |
-
-</div>
-
----
-
 ## 🚀 Features
 
 - 🎨 **Modern Dark Theme** — Sleek gradient backgrounds with cyan-blue accent colors
@@ -93,72 +81,7 @@ AyuFolio/
 
 ---
 
-## ⚡ Quick Start
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v16+)
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ayushrusiya9/AyuFolio.git
-
-# Navigate to project
-cd AyuFolio
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your EmailJS credentials (see below)
-
-# Start development server
-npm run dev
-```
-
-### 📧 EmailJS Setup (for Contact Form)
-
-1. Create a free account at [emailjs.com](https://www.emailjs.com/)
-2. Add Gmail as an Email Service → get **Service ID**
-3. Create an Email Template with variables: `{{from_name}}`, `{{from_email}}`, `{{message}}`, `{{reply_to}}`
-4. Copy your **Public Key** from Account → General
-5. Add these to your `.env` file:
-
-```env
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
----
-
-## 🏗️ Build for Production
-
-```bash
-npm run build
-npm run preview   # Preview the build locally
-```
-
----
-
-## 📂 Featured Projects
-
-| Project       | Description                                    | Tech               |
-| ------------- | ---------------------------------------------- | ------------------ |
-| **FlyNow**    | Airline booking website with CRUD operations   | HTML, CSS, JS      |
-| **Echofy**    | Django web project exploring core concepts     | Django, Python     |
-| **EduNexus**  | E-learning platform with role-based dashboards | Django, Cloudinary |
-| **FixItFast** | Home repair service booking app                | HTML, CSS, JS      |
-| **Shopora**   | Full-stack eCommerce with auth & cart          | Django, Python     |
-| **Grocify**   | Grocery management with CRUD operations        | React, JSON Server |
-
----
-
-## 🤝 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -171,13 +94,13 @@ npm run preview   # Preview the build locally
 
 ---
 
-## 👤 Developer
+## Developer
 
 **Ayush Rusiya**
 
-- 🎓 B.Tech CSE | RGPV University, Bhopal
-- 💻 Full Stack Developer (Python, Django, FastAPI, React, Next.js)
-- 📍 Bhopal, Madhya Pradesh, India
+- B.Tech CSE | RGPV University, Bhopal
+- Full Stack Developer (Python, Django, FastAPI, React, Next.js)
+- Bhopal, Madhya Pradesh, India
 
 ---
 
@@ -185,6 +108,6 @@ npm run preview   # Preview the build locally
 
 **⭐ Star this repo if you like it!**
 
-Made with ❤️ by [Ayush Rusiya](https://github.com/ayushrusiya9)
+Made with by [Ayush Rusiya](https://github.com/ayushrusiya9)
 
 </div>
