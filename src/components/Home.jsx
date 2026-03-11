@@ -72,7 +72,7 @@ const Home = () => {
                   cursor={true}
                   repeat={Infinity}
                 />
-              </span>
+              </span>  
             </p>
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.45}>
