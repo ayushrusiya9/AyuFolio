@@ -23,13 +23,13 @@ const Experience = () => {
   return (
     <div
       name="Experience"
-      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-gray-800 to-black"
+      className="pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black to-black "
     >
       <div className="section">
         <AnimatedWrapper>
           <SectionHeading heading="Experience" secondHeading="My professional journey" />
         </AnimatedWrapper>
-        <GridLayout style="sm:grid-cols-2 md:max-w-2xl mx-auto lg:max-w-none lg:grid-cols-3 gap-4">
+        <GridLayout style="flex flex-col gap-4 mt-8">
           {experienceData.map((exp, idx) => (
             <AnimatedWrapper key={idx} animateFrom="bottom" delay={0.8}>
               <Card style={{shadow:'shadow-cyan-500/30'}}>
