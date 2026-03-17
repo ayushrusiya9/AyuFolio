@@ -12,10 +12,10 @@ const experienceData = [
     description: "Developed and maintained responsive web applications using React and Tailwind CSS. Collaborated with designers and backend developers to deliver seamless user experiences."
   },
   {
-    company: "InnovateX",
-    role: "Backend Developer",
-    period: "Feb 2023 - Dec 2023",
-    description: "Built RESTful APIs with Django and FastAPI. Optimized database queries and implemented authentication systems."
+    company: "Cybrom Technology Pvt. Ltd., Bhopal",
+    role: "Full Stack Developer Intern",
+    period: "Sep 2025 - Dec 2025",
+    description: "During my internship at Cybrom, I worked on building full stack web applications using Python, Django, Django REST Framework and ReactJS. I gained    hands on experience in backend development, API creation, and frontend integration."
   }
 ];
 
