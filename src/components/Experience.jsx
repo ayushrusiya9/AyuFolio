@@ -6,16 +6,24 @@ import Card from "./Card";
 
 const experienceData = [
   {
-    company: "Tech Solutions Inc.",
-    role: "Frontend Developer",
-    period: "Jan 2024 - Dec 2025",
-    description: "Developed and maintained responsive web applications using React and Tailwind CSS. Collaborated with designers and backend developers to deliver seamless user experiences."
+    company: "Eulogik",
+    role: "Software Developer",
+    period: "Jan 2024 - Present",
+    description: ` Developed backend services using python and FastAPI for production level applications,
+                   Designed and implemented REST APIs, authentication systems, and core business logic,
+                   Worked with PostgreSQL/MySQL for database design, queries, and data handling,
+                   Built and integrated frontend components using React.js and Next.js with backend APIs, 
+                   Contributed to full stack development, ensuring smooth communication between frontend and backend systems.`
   },
   {
     company: "Cybrom Technology Pvt. Ltd., Bhopal",
     role: "Full Stack Developer Intern",
     period: "Sep 2025 - Dec 2025",
-    description: "During my internship at Cybrom, I worked on building full stack web applications using Python, Django, Django REST Framework and ReactJS. I gained    hands on experience in backend development, API creation, and frontend integration."
+    description: ` Developed backend APIs using Django and Django REST Framework for real world web applications,
+                  Implemented authentication, CRUD operations, and API routing for structured backend systems,
+                  Integrated frontend components using React.js with backend APIs, 
+                  Worked with relational databases and handled data models and relationships, 
+                  Followed clean code practices and collaborated using Git and GitHub.`
   }
 ];
 
@@ -32,7 +40,7 @@ const Experience = () => {
         <GridLayout style="flex flex-col gap-4 mt-8">
           {experienceData.map((exp, idx) => (
             <AnimatedWrapper key={idx} animateFrom="bottom" delay={0.8}>
-              <Card style={{shadow:'shadow-cyan-500/30'}}>
+              <Card style={{ shadow: 'shadow-cyan-500/30' }}>
                 <div className="flex flex-col h-full p-6 bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-lg">
                   <h3 className="text-2xl font-bold text-cyan-300 mb-2">{exp.role}</h3>
                   <span className="text-lg text-white font-semibold mb-1">@ {exp.company}</span>

@@ -7,50 +7,14 @@ import grocify from "../assets/Projects/grocify.png"
 
 const projects = [
     {
-        img: flynow,
-        name: "FlyNow - A Flight Booking Web",
-        demo: "https://fly-now-ebon.vercel.app/",
-        code: "https://github.com/ayushrusiya9/FlyNow",
-        description: "FlyNow is a responsive airline booking website built with HTML, CSS, and JavaScript. It showcases CRUD functionality for creating, reading, updating, and deleting flight bookings. The project focuses on modern UI, smooth navigation, and a fully mobile-friendly design.",
+        img: grocify,
+        name: "Grocify - Grocery Web App",
+        demo: "https://grocify-ebon.vercel.app",
+        code: "https://github.com/ayushrusiya9/grocify-website",
+        description: "A grocery web app built with React and JSON Server featuring CRUD operations for managing grocery items. Includes login/signup functionality, item management, and a clean responsive UI.",
         style: {
-            shadow: "shadow-[#3498AB]",
-            cover: "from-[#3498AB]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: echofy,
-        name: "Echofy Django Project",
-        demo: "https://ayushrusiya.pythonanywhere.com/",
-        code: "https://github.com/ayushrusiya9/Echofy-django-project",
-        description: "Echofy is a personal Django web project built to explore key web development concepts such as routing, templates, static file handling, and basic deployment. While the interface is simple, the project helped me grasp the foundational structure of Django applications and how core web components interact behind the scenes.",
-        style: {
-            shadow: "shadow-[#5E4746]",
-            cover: "from-[#5E4746]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: Edunexus,
-        name: "EduNexus - A smartCampus",
-        demo: "https://ayushrusiya386.pythonanywhere.com/",
-        code: "https://github.com/ayushrusiya9/EduNexus-SmartCampus",
-        description: "EduNexus is a dynamic Django based e-learning platform that connects Admins, Teachers, and Students. It offers secure role-based dashboards, ebook sharing, profile management, and Cloudinary integration with a responsive, modern UI.",
-        style: {
-            shadow: "shadow-[#FB923C]",
-            cover: "from-[#FB923C]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: fixitfast,
-        name: "FixItfast - Service Booking App",
-        demo: "https://inquisitive-puppy-d3ea6e.netlify.app/",
-        code: "https://github.com/ayushrusiya9/FixiTfast",
-        description: "FixItFast – Home Repair Service App A web app that connects users with nearby verified professionals for home repairs like plumbing, electrical, and appliance fixes.",
-        style: {
-            shadow: "shadow-[#F8FAFC]",
-            cover: "from-[#F8FAFC]",
+            shadow: "shadow-[#22C55E]",
+            cover: "from-[#22C55E]",
             display: " hidden group-hover:flex"
         }
     },
@@ -67,14 +31,50 @@ const projects = [
         }
     },
     {
-        img: grocify,
-        name: "Grocify - Grocery Web App",
-        demo: "https://grocify-ebon.vercel.app",
-        code: "https://github.com/ayushrusiya9/grocify-website",
-        description: "A grocery web app built with React and JSON Server featuring CRUD operations for managing grocery items. Includes login/signup functionality, item management, and a clean responsive UI.",
+        img: Edunexus,
+        name: "EduNexus - A smartCampus",
+        demo: "https://ayushrusiya386.pythonanywhere.com/",
+        code: "https://github.com/ayushrusiya9/EduNexus-SmartCampus",
+        description: "EduNexus is a dynamic Django based e-learning platform that connects Admins, Teachers, and Students. It offers secure role-based dashboards, ebook sharing, profile management, and Cloudinary integration with a responsive, modern UI.",
         style: {
-            shadow: "shadow-[#22C55E]",
-            cover: "from-[#22C55E]",
+            shadow: "shadow-[#FB923C]",
+            cover: "from-[#FB923C]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: flynow,
+        name: "FlyNow - A Flight Booking Web",
+        demo: "https://fly-now-ebon.vercel.app/",
+        code: "https://github.com/ayushrusiya9/FlyNow",
+        description: "FlyNow is a responsive airline booking website built with HTML, CSS, and JavaScript. It showcases CRUD functionality for creating, reading, updating, and deleting flight bookings.",
+        style: {
+            shadow: "shadow-[#3498AB]",
+            cover: "from-[#3498AB]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: echofy,
+        name: "Echofy Django Project",
+        demo: "https://ayushrusiya.pythonanywhere.com/",
+        code: "https://github.com/ayushrusiya9/Echofy-django-project",
+        description: `Echofy is a Django-based web project built to explore core concepts like routing, templates, and static file handling. It demonstrates the basic structure of a Django application and how different components interact.`,
+        style: {
+            shadow: "shadow-[#5E4746]",
+            cover: "from-[#5E4746]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: fixitfast,
+        name: "FixItfast - Service Booking App",
+        demo: "https://inquisitive-puppy-d3ea6e.netlify.app/",
+        code: "https://github.com/ayushrusiya9/FixiTfast",
+        description: "FixItFast – Home Repair Service App A web app that connects users with nearby verified professionals for home repairs like plumbing, electrical, and appliance fixes.",
+        style: {
+            shadow: "shadow-[#F8FAFC]",
+            cover: "from-[#F8FAFC]",
             display: " hidden group-hover:flex"
         }
     },

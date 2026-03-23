@@ -27,7 +27,7 @@ const About = () => {
               height="auto"
               loading="lazy"
               title="Profile Picture"
-              className="cursor-pointer grayscale hover:grayscale-0 hover:scale-[1.02] transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl min-w-[240px] w-1/2 mx-auto  md:w-[270px]"
+              className="cursor-pointer grayscale hover:grayscale-0 transition-all delay-75 border-4 border-transparent hover:border-white duration-300 rounded-2xl min-w-[240px] w-1/2 mx-auto  md:w-[270px]"
             />
           </AnimatedWrapper>
         </div>
