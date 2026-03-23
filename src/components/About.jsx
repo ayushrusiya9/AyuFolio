@@ -43,23 +43,19 @@ const About = () => {
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <AnimatedWrapper>
               <p className="leading-tight">
-                Aspiring <span className="text-cyan-400">Full Stack Developer</span> with a
-                strong foundation in Python, Django, FastAPI, and JavaScript. Passionate about
-                building scalable web applications using modern frameworks like React.js and Next.js.
+                Aspiring <span className="text-cyan-400">Software Developer </span> 
+                at Eulogik with hands on experience building backend systems and 
+                full stack web applications using FastAPI, Django, and React.js.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
               <p className="leading-tight">
-                Currently pursuing B.Tech in Computer Science at RGPV University, Bhopal,
-                while enhancing my skills through real world projects and continuous
-                learning.
+               I have worked on production level applications where I design and develop REST APIs, implement authentication systems, and manage databases using PostgreSQL and MySQL. I also contribute to frontend development using React.js and Next.js for seamless integration with backend services.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
               <p className="leading-tight">
-                I enjoy working on end-to-end product development, from crafting responsive
-                UIs with React and Next.js to designing efficient backends with Django and FastAPI.
-                Always eager to collaborate, learn, and contribute to impactful tech solutions.
+                Currently focused on building scalable backend systems and improving performance and system design skills.
               </p>
             </AnimatedWrapper>
           </div>
