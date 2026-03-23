@@ -4,6 +4,7 @@ import Edunexus from "../assets/Projects/edunexus.png"
 import fixitfast from "../assets/Projects/fixitfast.png"
 import shopora from "../assets/Projects/shopora.png"
 import grocify from "../assets/Projects/grocify.png"
+import ayuFolio from "../assets/Projects/ayufolio.png"
 
 const projects = [
     {
@@ -39,6 +40,18 @@ const projects = [
         style: {
             shadow: "shadow-[#FB923C]",
             cover: "from-[#FB923C]",
+            display: " hidden group-hover:flex"
+        }
+    },
+     {
+        img: ayuFolio,
+        name: "AyuFolio - A modern developer portfolio",
+        demo: "https://ayu-folio.vercel.app/",
+        code: "https://github.com/ayushrusiya9/AyuFolio",
+        description: "AyuFolio - A modern developer portfolio built to showcase my projects, skills, and experience. Designed with a clean UI, responsive layout, and smooth user experience.",
+        style: {
+            shadow: "shadow-[#3498AB]",
+            cover: "from-[#3498AB]",
             display: " hidden group-hover:flex"
         }
     },
