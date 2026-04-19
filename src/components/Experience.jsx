@@ -8,7 +8,7 @@ const experienceData = [
   {
     company: "Eulogik",
     role: "Software Developer",
-    period: "Jan 2024 - Present",
+    period: "Jan 2026 - Present",
     description: ` Developed backend services using python and FastAPI for production level applications,
                    Designed and implemented REST APIs, authentication systems, and core business logic,
                    Worked with PostgreSQL/MySQL for database design, queries, and data handling,
